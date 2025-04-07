@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "npm run backend",
     "backend": "node backend/server.js",
     "frontend": "vite",
     "dev": "npm run frontend",
